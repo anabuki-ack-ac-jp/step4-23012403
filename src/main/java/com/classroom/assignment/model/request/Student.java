@@ -3,7 +3,6 @@ package com.classroom.assignment.model.request;
 public class Student {
   private String id;
   private String name;
-
   private String sub;
 
 
@@ -29,7 +28,7 @@ public class Student {
     this.id = id;
   }
 
-  public String getsub() {
+  public String getSub() {
     return sub;
   }
 
